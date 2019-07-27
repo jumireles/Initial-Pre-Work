@@ -1,0 +1,14 @@
+<!--Learned that older browers may not support custom CSS varaibles and backup values should
+  be included to backup CSS variables-->
+  <style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>

@@ -33,8 +33,8 @@ All instances of client-side assets are created because when a webpage is loaded
 
 ## How many instances of the server-side code are available at any given time?
 
-At any given time, there is only one instance of server-side code as the browser loads all information at once then sends that information to be rendered.
+At any given time, there is only one instance of server-side code as the browser loads all information at once then sends that information to be rendered. I am stuck on this question as I have not been able to find the number of instances but from readings and searching it seems that servers only work 1 instance at a time and any reload requires a complete reload of a webpage.
 
 ## How many instances of the databases connected to the server application are created?
 
-At any one time, a database is only connected once to a server application. This allows for each request to be processed in order by both the server and the database until the request for the information is finished.  https://en.wikipedia.org/wiki/Client%E2%80%93server_model
+At any one time, a database is only connected once to a server application. This allows for each request to be processed in order by both the server and the database until the request for the information is finished. I am stuck on this question as I do not know where I can get more information for this answer.  https://en.wikipedia.org/wiki/Client%E2%80%93server_model
